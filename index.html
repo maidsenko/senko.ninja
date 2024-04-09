@@ -3,92 +3,120 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="keywords" content="maidsenko, senko" />
+		<meta name="description" content="senko.ninja" />
+		<meta property="og:description" content="senko.ninja" />
+		<meta property="og:title" content="senko 🌸" />
+		<meta property="og:image" content="" />
+		<meta property="og:type" content="website" />
+		<link rel="canonical" href="https://senko.ninja/" />
+		<meta property="og:site_name" content="@maidsenko" />
+		<meta
+			name="keywords"
+			content="senko, maidsenko" />
+		<meta
+			property="og:image"
+			content="https://cdn.discordapp.com/attachments/953841823338618900/1193970050365919292/tumblr_5d43d3aee5d6a0f535c75ebd4654a423_0a23ad45_1280.gif" />
+		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="language" content="English" />
-		<meta name="author" content="@maidsenko" />
-		<link rel="icon" href="/public/box.ico" />
-		<link rel="stylesheet" href="/public/styles/style.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700&display=swap"
-			rel="stylesheet" />
+		<meta name="author" content="MiyagawaMizu" />
+		<meta name="view-transition" content="same-origin" />
+		<link rel="icon" href="./public/mahiro_flex.ico" />
+		<link rel="stylesheet" href="./styles/style.css" />
 		<link
 			href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
 			rel="stylesheet"
 			crossorigin />
-		<title>Senko</title>
+		<title>senko 🌸</title>
 	</head>
-	<main>
-		<audio id="my-audio" loop volume="1">
-			<source
-				src="/public/8bitOP.mp3"
-				type="audio/mp3" />
-		</audio>
-	</main>
-	<body>
+	<body oncontextmenu="return false;">
 		<div class="container">
-			<div class="profile-border">
-				<div class="profile">
-					<div id="banner" , oncontextmenu="return false;">
-						<img
-							src="/public/banner.gif"
-							alt="" />
+			<div class="profile-border box-color">
+				<div class="profile box-color">
+					<div class="banner">
+						<img id="banner-image" src="./public/banner.webp" alt="" />
 					</div>
 					<div class="main-header">
 						<div class="image">
-							<button onclick="togglePlay()">
-								<div class="avatar" , oncontextmenu="return false;">
+							<div class="avatar">
+								<img
+									class="box-color"
+									id="avatar-image"
+									alt=""
+									aria-hidden="true"
+									src="./public/avatar.webp" />
+								<img
+									id="avatar-decoration"
+									src="https://cdn.discordapp.com/avatar-decoration-presets/a_5087f7f988bd1b2819cac3e33d0150f5.webp"
+									alt="" />
+								<div class="status box-color">
 									<img
-										id="avatar-image"
-										alt=""
-										aria-hidden="true"
-										src="/public/avatar.webp" />
-									<div class="status">
-										<img
-											id="status-image"
-											src="https://cdn.discordapp.com/attachments/1000271433777299588/1100167168273956904/output-onlinepngtools.png"
-											alt="" />
-									</div>
+										id="status-image"
+										src="./public/status/offline.svg"
+										alt="" />
 								</div>
-							</button>
+							</div>
+							<!-- </button> -->
 						</div>
-						<div class="badges">
+						<div class="badges box-color" id="badges">
+							<div class="badges-right">
+								<a class="tooltip" aria-label="HypeSquad Brilliance">
+									<img alt=" " src="./public/badges/hypesquad-bravery.svg"
+								/></a>
+								<a
+									class="tooltip"
+									id="active-developer"
+									aria-label="Active Developer">
+									<img alt=" " src="./public/badges/active-developer.svg"
+								/></a>
+								<a class="tooltip" aria-label="Subscriber since Jan 16, 2020">
+									<img alt=" " src="./public/badges/nitro.svg"
+								/></a>
+								<a
+									class="tooltip"
+									aria-label="Originally known as senko#9999">
+									<img alt=" " src="./public/badges/legacy-username.svg"
+								/></a>
+							</div>
+							<div class="badges-left"></div>
 							<!-- badges list-->
-							<img
-								alt=" "
-								aria-hidden="true"
-								src="/public/badges/hypesquad_bravery.svg" />
-							<img
-								alt=" "
-								aria-hidden="true"
-								src="/public/badges/active_developer.svg" />
-							<img alt=" " aria-hidden="true" src="/public/badges/nitro.svg" />
-							<img
-								alt=" "
-								aria-hidden="true"
-								src="/public/badges/boost_24_month.svg" />
 							<!-- -->
 						</div>
 					</div>
-					<div class="card">
-						<div class="header">
-							<div class="username">
-								<span class="text-username">senko</span>
+					<div class="card box-color">
+						<div class="name-box">
+							<span class="display-name">Sen</span>
+							<span class="username">maidsenko</span>
+							<span class="pronouns">Hà Thủy</span>
+							<div class="custom-status">
+								<img id="custom-status-emoji" />
+								<p class="custom-status-text"></p>
 							</div>
 						</div>
-						<span class="text-base text-status">maidsenko</span>
-						<div class="divider"></div>
 						<div class="body">
 							<div class="content">
 								<div class="about-section">
 									<div class="title-body">ABOUT ME</div>
 									<!-- text -->
-									<span class="text-base"
-										>I'm Sen, a Hikikomori plus NEET, and I enjoy playing video
-										games, watching anime, reading manga, and occasionally
-										tinkering with with random stuff ≩ᴗ≨.
-									</span>
+									<span class="about-me"
+										>I'm Sen🌸
+										a Hikikomori plus NEET, and I enjoy playing video games 🎮,
+										watching anime, reading manga 🗾, and occasionally tinkering
+										with with random stuff 💻. I'm quite shy 👉👈, so it would
+										be really nice if you're the one who takes the initiative to
+										be friends with me (≩ᴗ≨).<br /><br />I'm currently the owner
+										👑 of a small
+										<a href="https://discord.com/" target="_blank"> Discord</a>
+										server called
+										<a href="https://discord.gg/wY5j8R3WDy" target="_blank"
+											>Sen's Bakery</a
+										>
+										and I hope you'll join and play some games with me on
+										<a
+											href="https://steamcommunity.com/id/Senkoii/"
+											target="_blank"
+											>Steam</a
+										>.</span
+									>
 									<!-- -->
 								</div>
 								<div class="title-body">ROLES</div>
@@ -100,106 +128,120 @@
 									</div>
 									<div class="rol softpink">
 										<i class="fas fa-circle"></i>
-										<span>Weeb</span>
+										<span>Weeb Developer</span>
 									</div>
 									<div class="rol green">
 										<i class="fas fa-circle"></i>
 										<span>Gamer</span>
 									</div>
-									<div class="rol tim">
-										<i class="fas fa-circle"></i>
-										<span>Developer</span>
-									</div>
+									
 									<!-- -->
 								</div>
 								<div class="divider social-divider"></div>
+								<div class="title-body">CONNECTIONS</div>
+
 								<div class="socials">
 									<!-- social list -->
 									<div class="column">
-										<div class="platform">
+										<a
+											class="platform"
+											href="http://steamcommunity.com/id/Senkoii/"
+											rel="noreferrer noopener"
+											target="_blank">
 											<img
+												class="platform-icon"
 												alt=" "
 												aria-hidden="true"
-												src="/public/platforms/steam.svg" />
+												src="./public/platforms/steam.svg" />
 											<div class="text-base platform-username">
 												senko
 											</div>
-											<a
-												href="http://steamcommunity.com/id/senkoii/"
+											<div>
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="http://x.com/maidsenko"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/twitter.svg" />
+											<div class="text-base platform-username">maidsenko</div>
+											<div
+												href="http://fb.com/MiyagawaMizu/"
 												rel="noreferrer noopener"
 												target="_blank">
 												<img
 													alt=" "
 													id="link"
 													aria-hidden="true"
-													src="/public/icons/link.svg"
+													src="./public/icons/link.svg"
 													class="connect" />
-											</a>
-										</div>
-										<div class="platform">
-											<img
-												alt=" "
-												aria-hidden="true"
-												src="/public/platforms/twitter.svg" />
-											<div class="text-base platform-username">
-												senko
 											</div>
-											<a
-												href="https://x.com/maidsenko"
-												rel="noreferrer noopener"
-												target="_blank">
-												<img
-													alt=" "
-													id="link"
-													aria-hidden="true"
-													src="/public/icons/link.svg"
-													class="connect" />
-											</a>
-										</div>
+										</a>
 									</div>
 									<div class="column">
-										<div class="platform">
+										<a
+											class="platform"
+											href="https://github.com/maidsenko"
+											rel="noreferrer noopener"
+											target="_blank">
 											<img
+												class="platform-icon"
 												alt=" "
 												aria-hidden="true"
-												src="/public/platforms/github.svg" />
-											<div class="text-base platform-username">
-												SenkoNZ
-											</div>
-											<a
-												href="https://github.com/senkonz"
-												rel="noreferrer noopener"
-												target="_blank">
-												<img
-													alt=" "
-													id="link"
-													aria-hidden="true"
-													src="/public/icons/link.svg"
-													class="connect" />
-											</a>
-										</div>
-										<div class="platform">
-											<img
-												alt=" "
-												aria-hidden="true"
-												src="/public/platforms/discord.svg" />
+												src="./public/platforms/github.svg" />
 											<div class="text-base platform-username">
 												maidsenko
 											</div>
-											<a
-												href="https://discordapp.com/users/639668795597651978"
-												rel="noreferrer noopener"
-												target="_blank">
+											<div>
 												<img
 													alt=" "
 													id="link"
 													aria-hidden="true"
-													src="/public/icons/link.svg"
+													src="./public/icons/link.svg"
 													class="connect" />
-											</a>
-										</div>
+											</div>
+										</a>
+										<a
+											class="platform"
+											href="https://discord.gg/wY5j8R3WDy"
+											rel="noreferrer noopener"
+											target="_blank">
+											<img
+												class="platform-icon"
+												alt=" "
+												aria-hidden="true"
+												src="./public/platforms/discord.svg" />
+											<div class="text-base platform-username">
+												Discord Server
+											</div>
+											<div class="">
+												<img
+													alt=" "
+													id="link"
+													aria-hidden="true"
+													src="./public/icons/link.svg"
+													class="connect" />
+											</div>
+										</a>
 									</div>
 									<!-- -->
+								</div>
+								<div class="chat-container">
+									<input
+										type="text"
+										id="message-input"
+										placeholder="Message @Mizu" />
 								</div>
 							</div>
 						</div>
@@ -207,7 +249,9 @@
 				</div>
 			</div>
 		</div>
-		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-		<script src="script.js"></script>
+		<!-- <script src="./scripts/script.js"></script> -->
+		<script src="./scripts/script_static.js"></script>
+		<!-- <script src="./scripts/no_dev.js"></script> -->
+		<!-- <script src="./scripts/message.js"></script> -->
 	</body>
 </html>
