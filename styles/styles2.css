@@ -1,0 +1,103 @@
+.header {
+    background-color: black;
+}
+
+.titlebar,
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.titlebar {
+  border-bottom: 1px solid black;
+}
+
+.footer {
+  border-top: 1px solid black;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.8em;a
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+a,
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.titlebar-item {
+  display: flex;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.3em;
+}
+
+.titleblock-title {
+  color: rgb(35, 104, 79);
+  font-weight: 800;
+}
+
+img {
+  border-radius: 10px;
+  border: dotted 0.1rem black;
+  padding: 2px;
+  height: 15vh;
+}
+
+.commands-body {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 20px;
+}
+
+.command-section,
+.command-column {
+  font-family: 'Overpass', 'sans-serif';
+  width: 50%;
+  margin: 0 auto;
+}
+
+.command-section {
+  margin-top: 22px;
+  margin-bottom: 22px;
+  font-size: 1.35em;
+  font-weight: 600;
+  color: rgb(35, 104, 79);  
+  border-bottom: .11em solid rgb(49, 149, 112);
+  border-left: .11em solid rgb(49, 149, 112);
+  padding-left: 15px;
+}
+
+.command-title {
+  font-weight: 600;
+  font-size: 1.1em;
+  margin-bottom: 3px;   
+}
+
+.command-description {
+  margin-bottom: 15px;
+}
+
+i {
+  font-weight: 400;
+}
+
+@media (max-width: 800px) {
+  .command-section,
+  .command-column {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .titlebar {
+    flex-direction: column;
+  }
+  .titlebar-item:nth-of-type(2) {
+    margin-top: 20px;
+  }
+}
