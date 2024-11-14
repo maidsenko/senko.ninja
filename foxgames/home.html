@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FoxGames | Home</title>
+
+  <link rel="icon" href="./fgames.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Lobster|Roboto|Abril+Fatface|Kreon|Righteous" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/spinloader.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/hover-min.css">
+  <link rel="stylesheet" href="assets/css/shake.css">
+  <link rel="stylesheet" href="assets/css/coolbuttons.css">
+  <link rel="stylesheet" href="assets/css/flizanim.css">
+  <link rel="stylesheet" href="assets/css/animatedletterfill.css">
+  <link rel="stylesheet" href="assets/css/hamburgers.min.css">
+  <link rel="stylesheet" href="assets/css/hover.min.css">
+  <link rel="stylesheet" href="assets/css/nav.css">
+  <link rel="stylesheet" href="assets/css/projectcards.css">
+  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/aos.css">
+
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+  <script src="assets/js/index.js"></script>
+  <script src="assets/js/nav.js"></script>
+  <script src="assets/js/background.js"></script>
+  <script src="assets/js/pagetransition.js"></script>
+  <script src="assets/js/projectthumbs.js"></script>
+  <script src="assets/js/aos.js"></script>
+
+</head>
+<body onunload="hideOverlay();">
+
+  <canvas id="background-canvas"></canvas>
+
+  <span class="overlay">
+    <div id="loader">
+      <div class="cssload-loader-container">
+        <span class="cssload-loader"><span class="cssload-loader-inner"></span></span>
+      </div>
+    </div>
+  </span>
+
+  <div id="main">
+    <div id="top-header">
+      <div class="container top-header-container">
+        <div class="top-header-text">
+          // FOXGAMES
+        </div>
+        <div class="top-header-quicknav">
+          <a onclick="closePage('contact.html')"><span class="fa fa-envelope"></span></a>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="full-page">
+      <div id="welcome">
+        <div class="header-background">
+        </div>
+        <div class="container">
+
+          <div class="welcome-header">
+
+            <h1 class="animated-text-fill title">Fox Games</h1>
+            <h4>Game Developers</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+
+		<div id="row-2">
+			<div class="container child-project">
+				<hr>
+				<div class="child-project-desc">
+					<div class="child-project-header" data-aos="fade-up">
+						<h1>Our Passion Project</h1>
+						<h3>"Name Unknown"</h3>
+						<span class="header-border"></span>
+					</div>
+					<div class="child-project-summary-holder">
+						<p class="child-project-summary" data-aos="fade-up">As the project is being worked on with another dev team,
+              the project info cannot be release until we have hammered out all the details and kinks in it.
+						<br><br>
+						More information will become available as we progress through development.</p>
+					</div>
+
+				</div>
+
+        <br>
+        <hr>
+
+			</div>
+		</div>
+
+		<br><br>
+
+
+
+    <!-- Vertical text piece -->
+    <div class="vertical-side-text">&copy;
+      <script type="text/javascript">
+        document.write(new Date().getFullYear());
+      </script> - FOX GAMES
+    </div>
+  </div>
+
+  <!-- Nav -->
+  <button class="nav-button hamburger hamburger--3dxy" type="button" onclick="openNav();">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+
+  <!-- Navbar -->
+  <div id="navbar">
+    <div class="navbar-content">
+      <ul>
+        <li><a class="nav-link active">
+          <span class="left-selector">[</span>Home<span class="right-selector">]</span>
+        </a></li>
+        <li><a href="https://trello.com/b/QFw5YygJ/fox-games-roadmap" class="nav-link">
+          <span class="left-selector">[</span>Roadmap<span class="right-selector">]</span>
+        </a></li>
+        <li><a onclick="closePage('contact.html')" class="nav-link">
+          <span class="left-selector">[</span>Contact<span class="right-selector">]</span>
+        </a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="darkness-overlay"></div>
+
+  <!-- Left Sidebar -->
+  <div id="left-sidebar">
+    <div class="left-sidebar-background"></div>
+    <div class="left-sidebar-content"></div>
+    <span class="close-button" onclick="closeLeftSidebar();">&times;</span>
+  </div>
+
+  <script src="assets/js/tilt.jquery.min.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      easing: 'ease-out-quart'
+    });
+  </script>
+  <script src="./scripts/script_static.js"></script>
+</body>
+</html>

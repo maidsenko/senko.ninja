@@ -1,46 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="description" content="Senkochan." />
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://senko.ninja/" />
-		<link rel="icon" href="/public/senkonote.ico" />
-		<style>
-			@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono+NL&display=swap");
-			body {
-				font-family: "JetBrains Mono NL", monospace;
-			}
-			html,
-			body {
-				height: 100%;
-				margin: 0;
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				background-color: #242424;
-				cursor: url("/public/cursor.png"), auto;
-			}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FoxGames | Landing</title>
 
-			h1 {
-				color: white;
-				font-size: 24px;
-				text-align: center;
-				cursor: url("/public/no.png"), auto;
-			}
+  <link rel="icon" href="./fgames.png">
+  <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Lobster|Roboto" rel="stylesheet">  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/spinloader.css">
+  <link rel="stylesheet" href="assets/css/flizanim.css">
+  <link rel="stylesheet" href="assets/css/revealletters.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/landing.css">
+  <link rel="stylesheet" href="assets/css/coolbuttons.css">
 
-			/* make a text smaller on mobile*/
-			@media screen and (max-width: 600px) {
-				h1 {
-					font-size: 16px;
-				}
-			}
-		</style>
-		<title>senko🌸</title>
-	</head>
-	<body>
-		<h1>🚧 This page is under construction! 🚧</h1>
-		<!-- <script src="./oneko.js"></script> -->
-	</body>
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <script src="assets/js/pagetransition.js"></script>
+</head>
+
+<body onunload="hideOverlay();">
+
+  <span class="overlay">
+    <div id="loader">
+      <div class="cssload-loader-container">
+        <span class="cssload-loader"><span class="cssload-loader-inner"></span></span>
+      </div>
+    </div>
+  </span>
+
+  <div id="landing-page">
+
+    <div class="center-wrapper">
+      <div id="letters">
+        <span class="letter">f</span>
+        <span class="letter">o</span>
+        <span class="letter">x</span>
+        <span class="letter">g</span>
+        <span class="letter">a</span>
+        <span class="letter">m</span>
+        <span class="letter">e</span>
+        <span class="letter">s</span>
+      </div>
+
+      <p class="sub-1">GAME DEVELOPERS</p>
+
+      <br>
+      <div class="goto-button">
+        <div class="button" onclick="closePage('home.html')">
+          <span class="button__mask"></span>
+          <span class="button__text">Go to site</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./scripts/script_static.js"></script>
+
+</body>
+
 </html>

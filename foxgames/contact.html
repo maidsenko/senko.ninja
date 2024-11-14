@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FoxGames | Contact</title>
+
+  <link rel="icon" href="./fgames.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Lobster|Roboto|Abril+Fatface|Kreon" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/hamburgers.min.css">
+  <link rel="stylesheet" href="assets/css/flizanim.css">
+  <link rel="stylesheet" href="assets/css/spinloader.css">
+  <link rel="stylesheet" href="assets/css/nav.css">
+  <link rel="stylesheet" href="assets/css/coolbuttons.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
+
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <script src="assets/js/nav.js"></script>
+  <script src="assets/js/background.js"></script>
+
+  <script src="assets/js/pagetransition.js"></script>
+  <script src="assets/js/contact.js"></script>
+
+</head>
+<body onunload="hideOverlay();">
+
+  <canvas id="background-canvas"></canvas>
+
+  <span class="overlay">
+    <div id="loader">
+      <div class="cssload-loader-container">
+        <span class="cssload-loader"><span class="cssload-loader-inner"></span></span>
+      </div>
+    </div>
+  </span>
+
+  <div id="main">
+    <br><br>
+    <div id="header">
+
+      <h4 class="top-header">Fox Games</h4>
+      <h1 data-heading="Contact">Contact</h1>
+      <div class="sign-open">
+        Open
+      </div>
+    </div>
+
+    <!-- Rotating words -->
+    <br>
+    <div class="rolling-words">
+      <div class="rolling-word-header">Whether you want to</div>
+      <div id="rollingword-1" class="rolling-word">Inquire</div>
+      <div id="rollingword-4" class="rolling-word">Question</div>
+      <div id="rollingword-5" class="rolling-word">Pry</div>
+      <div id="rollingword-10" class="rolling-word">Pitch</div>
+      <div id="rollingword-11" class="rolling-word">Probe</div>
+      <div id="rollingword-12" class="rolling-word">Query</div>
+      <div id="rollingword-19" class="rolling-word">Speak</div>
+      <div id="rollingword-20" class="rolling-word">Talk</div>
+      <div class="rolling-word-header">Throw us a message:</div>
+    </div>
+
+    <br>
+
+    <div class="container full-contact-container">
+      <div class="full-contact-container-row">
+        <div class="contact-container">
+          <div class="contact-header">Twitter -</div>
+        </div>
+        <div class="contact-container">
+          <a href="https://senko.ninja/twitter"><div class="contact-piece">@heysenko</div></a>
+        </div>
+      </div>
+      <div class="full-contact-container-row">
+        <div class="contact-container">
+          <div class="contact-header">Discord -</div>
+        </div>
+        <div class="contact-container">
+          <a href="https://senko.ninja/foxgames/discord"><div class="contact-piece">senko.ninja/foxdiscord</div></a>
+        </div>
+      </div>
+      <div class="full-contact-container-row">
+        <div class="contact-container">
+          <div class="contact-header">BlueSky -</div>
+        </div>
+        <div class="contact-container">
+          <a href="https://bsky.app/profile/senko.ninja"><div class="contact-piece">@senko.ninja</div></a>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- Vertical text piece -->
+    <div class="vertical-side-text">&copy;
+      <script type="text/javascript">
+        document.write(new Date().getFullYear());
+      </script> - senko.ninja
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <div id="navbar">
+    <div class="navbar-content">
+      <ul>
+        <li><a onclick="closePage('index.html');" class="nav-link">
+          <span class="left-selector">[</span>Home<span class="right-selector">]</span>
+        </a></li>
+        <li><a href="https://trello.com/b/QFw5YygJ/fox-games-roadmap" class="nav-link">
+          <span class="left-selector">[</span>Roadmap<span class="right-selector">]</span>
+        </a></li>
+        <li><a class="nav-link active">
+          <span class="left-selector">[</span>Contact<span class="right-selector">]</span>
+        </a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Nav -->
+  <button class="nav-button hamburger hamburger--3dxy" type="button" onclick="openNav();">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+
+  <script src="./scripts/script_static.js"></script>
+</body>
+</html>
